@@ -11,7 +11,7 @@ from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.impute import SimpleImputer
 
-st.title("Student Anxiety Prediction Using Clustering and ML Models")
+st.title("Student Anxiety Prediction Using Machine Learning Models")
 
 uploaded_file = st.file_uploader("Upload CSV File", type=["csv"])
 
